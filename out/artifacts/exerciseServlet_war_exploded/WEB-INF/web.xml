@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>servlet</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+        <init-param>
+            <param-name>testParam1</param-name>
+            <param-value>1</param-value>
+        </init-param>
+        <init-param>
+            <param-name>testParam2</param-name>
+            <param-value>2</param-value>
+        </init-param>
+        <init-param>
+            <param-name>testParam3</param-name>
+            <param-value>3</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

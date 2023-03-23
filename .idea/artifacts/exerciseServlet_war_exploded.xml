@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exerciseServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/exerciseServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exerciseServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="/Applications/XAMPP/mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="exerciseServlet/web/Web" />
+    </root>
+  </artifact>
+</component>
